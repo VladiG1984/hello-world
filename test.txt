@@ -1,1 +1,2 @@
 Testing GitHub procedures: create a repo, conflict, and then resolve that conflict.
+Update with Bash
