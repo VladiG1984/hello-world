@@ -1,7 +1,7 @@
 Testing GitHub procedures: create a repo, conflict, and then resolve that conflict.
 Change here...
-Updating with new line here
+Updating with new line here1
 Tortoise...
 Dots here...
-Update with Bash
+
 Update with Tortoise
