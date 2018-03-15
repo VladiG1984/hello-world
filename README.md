@@ -138,37 +138,6 @@ Note: **1 mile == 1.60934 kilometers**
 	</td>
 </table>
 
-|<table style="float: left;">
-		<tr>
-		  <td><strong>Input</strong></td>
-		  <td><strong>Output</strong></td>
-		</tr>
-		<tr>
-		  <td>60</td>
-		  <td>96.56</td>
-		</tr>
-	  </table>|
-	  <table style="float: middle;">
-		<tr>
-		  <td><strong>Input</strong></td>
-		  <td><strong>Output</strong></td>
-		</tr>
-		<tr>
-		  <td>1</td>
-		  <td>1.61</td>
-		</tr>
-	  </table>|
-	  <table style="float: right;">
-		<tr>
-		  <td><strong>Input</strong></td>
-		  <td><strong>Output</strong></td>
-		</tr>
-		<tr>
-		  <td>52.1113</td>
-		  <td>83.86</td>
-		</tr>
-	  </table>|
-
 ## Problem 4. Beverage Labels
 
 Write a program, which reads a food product **name, volume, energy content per 100ml** and **sugar content per 100ml**. Calculate the **energy** and **sugar content** for the **given volume** and print them on the console in the following format:
@@ -180,31 +149,117 @@ Write a program, which reads a food product **name, volume, energy content per 1
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| Nuka-Cola22030070 | 220ml Nuka-Cola:660kcal, 154g sugars |
+<table>
+  <tr>
+    <td><strong>Input</strong></td>
+	<td><strong>Output</strong></td>
+  </tr>
+  <tr>
+    <td>Nuka-Cola</td>
+	<td rowspan="4" valign="top">220ml Nuka-Cola:<br>660kcal, 154g sugars</td>
+  </tr>
+  <tr>
+    <td>220</td>
+  </tr>
+  <tr>
+    <td>300</td>
+  </tr>
+  <tr>
+    <td>70</td>
+  </tr>
+</table>
 
-| **Input** | **Output** |
-| --- | --- |
-| Ice Cold Nuka-Cola25035065 | 250ml Ice Cold Nuka-Cola:875kcal, 162.5g sugars |
-
-| **Input** | **Output** |
-| --- | --- |
-| Nuka-Cola Quantum350600140 | 350ml Nuka-Cola Quantum:2100kcal, 490g sugars |
+<table>
+  <tr>
+    <td><strong>Input</strong></td>
+	<td><strong>Output</strong></td>
+  </tr>
+  <tr>
+    <td>Ice Cold Nuka-Cola</td>
+	<td rowspan="4" valign="top">250ml Ice Cold Nuka-Cola:<br>875kcal, 162.5g sugars</td>
+  </tr>
+  <tr>
+    <td>250</td>
+  </tr>
+  <tr>
+    <td>350</td>
+  </tr>
+  <tr>
+    <td>65</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Input</strong></td>
+	<td><strong>Output</strong></td>
+  </tr>
+  <tr>
+    <td>Nuka-Cola Quantum</td>
+	<td rowspan="4" valign="top">350ml Nuka-Cola Quantum:<br>2100kcal, 490g sugars</td>
+  </tr>
+  <tr>
+    <td>350</td>
+  </tr>
+  <tr>
+    <td>600</td>
+  </tr>
+  <tr>
+    <td>140</td>
+  </tr>
+</table>
 
 ## Problem 5.\* Character Stats
 
 Write a program, which **displays information** about a video game character. You will receive their **name, current health, maximum health, current energy** and **maximum energy** on separate lines. The **current** values will **always** be valid (**equal or lower** than their respective **max** values). Print them in the format as per the examples.
 
 ### Examples
+<html>
+<table style="float: left;">
+  <tr>
+    <td><strong>Input</strong></td>
+	<td><strong>Output</strong></td>
+  </tr>
+  <tr>
+    <td>Mayro</td>
+	<td rowspan="5" valign="top">Name: Mayro<br>Health: ||||||.....|<br>Energy: ||||||||||.|</td>
+  </tr>
+  <tr>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>10</td>
+  </tr>
+</table>
 
-| **Input** | **Output** |   | **Input** | **Output** |
-| --- | --- | --- | --- | --- |
-| Mayro510910 | Name: MayroHealth: ||||||.....|Energy: ||||||||||.| | Bauser10101010 | Name: BauserHealth: ||||||||||||Energy: |||||||||||| |
-
-| **Input** | **Output** |   | **Input** | **Output** |
-| --- | --- | --- | --- | --- |
-| Loogi820214 | Name: LoogiHealth: |||||||||............|Energy: |||............| | Toad05010 | Name: ToadHealth: |.....|Energy: |..........| |
+<table style="float: left;">
+  <tr>
+    <td><strong>Input</strong></td>
+	<td><strong>Output</strong></td>
+  </tr>
+  <tr>
+    <td>Bauser</td>
+	<td rowspan="5" valign="top">Name: Bauser<br>Health: ||||||||||||<br>Energy: ||||||||||||</td>
+  </tr>
+  <tr>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>10</td>
+  </tr>
+</table>
+</html>
 
 ### Hints
 
