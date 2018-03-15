@@ -98,7 +98,7 @@ Note: **1 mile == 1.60934 kilometers**
 
 ### Examples
 
-<table style="border: none; border-color: none; background-color: none;">
+<table style="border: 0px solid black; border-color: none; background-color: none;">
   <tr>
     <td>
 	  <table style="float: left;">
