@@ -28,63 +28,117 @@ Write a program, which receives **4 integers** on the console and **prints them*
   </tr>
   <tr>
     <td>5331</td>
+  </tr>  
+  <tr>
+    <td>9182</td>
+	<td rowspan="4" valign="top">9182 4221 0012 0003</td>
   </tr>
   <tr>
-    <td>91824221123</td>
-	<td>9182 4221 0012 0003</td>
+    <td>4221</td>
   </tr>
   <tr>
-    <td>81232112322</td>
-	<td>0812 0321 0123 0022</td>
-  </tr>	
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>812</td>
+	<td rowspan="4" valign="top">0812 0321 0123 0022</td>
+  </tr>
+  <tr>
+    <td>321</td>
+  </tr>
+  <tr>
+    <td>123</td>
+  </tr>
+  <tr>
+    <td>22</td>
+  </tr>
 </table>
 
-| <strong>Input</strong> | <strong>Output</strong> |
-| --- | --- |
-| 12 | 0012 0433 0001 5331 |
-| 433 | |
-| 1 | |
-| 5331 | |
-| 91824221123 | 9182 4221 0012 0003 |
-| 81232112322 | 0812 0321 0123 0022 |
+## Problem 2. Rectangle Area
 
-1. Problem 2.Rectangle Area
+Write a program, which calculates a **rectangle&#39;s area**, based on its **width** and **height**. The **width** and **height** come as floating point numbers on the console, **formatted to the 2<sup>nd</sup> character after the decimal point**.
 
-Write a program, which calculates a **rectangle&#39;s area** , based on its **width** and **height**. The **width** and **height** come as floating point numbers on the console, **formatted to the 2**
-
-# nd
- **character after the decimal point**.
 ### Examples
+<table>
+  <tr>
+    <td><strong>Input</strong></td>
+	<td><strong>Output</strong></td>
+  </tr>
+  <tr>
+    <td>2</td>
+	<td rowspan="2" valign="top">14.00</td>
+  </tr>
+  <tr>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>7</td>
+	<td rowspan="2" valign="top">56.00</td>
+  </tr>
+  <tr>
+	<td>8</td>
+  </tr>
+  <tr>
+    <td>12.33</td>
+	<td rowspan="2" valign="top">61.65</td>
+  </tr>
+  <tr>
+	<td>5</td>
+  </tr>
+ </table>
 
-| **Input** | **Output** |
-| --- | --- |
-| 27 | 14.00 |
-| 78 | 56.00 |
-| 12.335 | 61.65 |
+## Problem 3. Miles to Kilometers
 
-1. Problem 3.Miles to Kilometers
-
-Write a program, which **converts**** miles **to** kilometers **.** Format **the output to the** 2**
-
-# nd
- **decimal place**.
+Write a program, which **converts miles** to **kilometers**. **Format** the output to the **2<sup>nd</sup> decimal place**.
 
 Note: **1 mile == 1.60934 kilometers**
 
 ### Examples
 
-| **Input** | **Output** |   | **Input** | **Output** |   | **Input** | **Output** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 60 | 96.56 | 1 | 1.61 | 52.1113 | 83.86 |
+<div>
+  <table style="display: inline-block; border: 1px solid; float: left; ">
+    <tr>
+	  <td><strong>Input</strong></td>
+	  <td><strong>Output</strong></td>
+	</tr>
+	<tr>
+	  <td>60</td>
+	  <td>96.56</td>
+	</tr>
+  </table>
+  <table style="display: inline-block; border: 1px solid; ">
+    <tr>
+	  <td><strong>Input</strong></td>
+	  <td><strong>Output</strong></td>
+	</tr>
+	<tr>
+	  <td>1</td>
+	  <td>1.61</td>
+	</tr>
+  </table>
+  <table style="display: inline-block; border: 1px solid; ">
+    <tr>
+	  <td><strong>Input</strong></td>
+	  <td><strong>Output</strong></td>
+	</tr>
+	<tr>
+	  <td>52.1113</td>
+	  <td>83.86</td>
+	</tr>
+  </table>
+</div>
 
-1. Problem 4.Beverage Labels
+## Problem 4. Beverage Labels
 
-Write a program, which reads a food product **name** , **volume** , **energy content**** per 100ml **and** sugar content per 100ml **. Calculate the** energy **and** sugar content **for the** given volume** and print them on the console in the following format:
+Write a program, which reads a food product **name, volume, energy content per 100ml** and **sugar content per 100ml**. Calculate the **energy** and **sugar content** for the **given volume** and print them on the console in the following format:
 
 - Name – as per the input
-- Volume – **integer** , **suffixed** by &quot; **ml**&quot; (e.g. &quot; **220ml**&quot;)
-- Energy content – **integer** , **suffixed** by &quot; **kcal**&quot; (e.g. &quot; **500kcal**&quot;)
-- Sugar content – **integer** , **suffixed** by &quot; **g**&quot; (e.g. &quot; **30g**&quot;)
+- Volume – **integer** , **suffixed** by &quot;**ml**&quot; (e.g. &quot;**220ml**&quot;)
+- Energy content – **integer** , **suffixed** by &quot;**kcal**&quot; (e.g. &quot;**500kcal**&quot;)
+- Sugar content – **integer** , **suffixed** by &quot;**g**&quot; (e.g. &quot;**30g**&quot;)
 
 ### Examples
 
@@ -100,9 +154,9 @@ Write a program, which reads a food product **name** , **volume** , **energy con
 | --- | --- |
 | Nuka-Cola Quantum350600140 | 350ml Nuka-Cola Quantum:2100kcal, 490g sugars |
 
-1. Problem 5.\* Character Stats
+## Problem 5.\* Character Stats
 
-Write a program, which **displays information** about a video game character. You will receive their **name** , **current health** , **maximum health** , **current energy** and **maximum energy** on separate lines. The **current** values will **always** be valid ( **equal or lower** than their respective **max** values). Print them in the format as per the examples.
+Write a program, which **displays information** about a video game character. You will receive their **name, current health, maximum health, current energy** and **maximum energy** on separate lines. The **current** values will **always** be valid (**equal or lower** than their respective **max** values). Print them in the format as per the examples.
 
 ### Examples
 
