@@ -213,50 +213,106 @@ Write a program, which reads a food product **name, volume, energy content per 1
 Write a program, which **displays information** about a video game character. You will receive their **name, current health, maximum health, current energy** and **maximum energy** on separate lines. The **current** values will **always** be valid (**equal or lower** than their respective **max** values). Print them in the format as per the examples.
 
 ### Examples
-
-|(<table style="float: left;">
+<table>
   <tr>
-    <td><strong>Input</strong></td>
-	<td><strong>Output</strong></td>
+    <td>
+		<table style="float: left;">
+		  <tr>
+			<td><strong>Input</strong></td>
+			<td><strong>Output</strong></td>
+		  </tr>
+		  <tr>
+			<td>Mayro</td>
+			<td rowspan="5" valign="top">Name: Mayro<br>Health: ||||||.....|<br>Energy: ||||||||||.|</td>
+		  </tr>
+		  <tr>
+			<td>5</td>
+		  </tr>
+		  <tr>
+			<td>10</td>
+		  </tr>
+		  <tr>
+			<td>9</td>
+		  </tr>
+		  <tr>
+			<td>10</td>
+		  </tr>
+		</table>
+    </td>
+    <td>
+		<table style="float: left;">
+		  <tr>
+			<td><strong>Input</strong></td>
+			<td><strong>Output</strong></td>
+		  </tr>
+		  <tr>
+			<td>Bauser</td>
+			<td rowspan="5" valign="top">Name: Bauser<br>Health: ||||||||||||<br>Energy: ||||||||||||</td>
+		  </tr>
+		  <tr>
+			<td>10</td>
+		  </tr>
+		  <tr>
+			<td>10</td>
+		  </tr>
+		  <tr>
+			<td>10</td>
+		  </tr>
+		  <tr>
+			<td>10</td>
+		  </tr>
+		</table>
+    </td>
+    <td>
+		<table style="float: left;">
+		  <tr>
+			<td><strong>Input</strong></td>
+			<td><strong>Output</strong></td>
+		  </tr>
+		  <tr>
+			<td>Loogi</td>
+			<td rowspan="5" valign="top">Name: Loogi<br>Health: |||||||||............|<br>Energy: |||............|</td>
+		  </tr>
+		  <tr>
+			<td>8</td>
+		  </tr>
+		  <tr>
+			<td>20</td>
+		  </tr>
+		  <tr>
+			<td>2</td>
+		  </tr>
+		  <tr>
+			<td>14</td>
+		  </tr>
+		</table>
+    </td>
+    <td>
+		<table style="float: left;">
+		  <tr>
+			<td><strong>Input</strong></td>
+			<td><strong>Output</strong></td>
+		  </tr>
+		  <tr>
+			<td>Toad</td>
+			<td rowspan="5" valign="top">Name: Toad<br>Health: |.....|<br>Energy: |..........|</td>
+		  </tr>
+		  <tr>
+			<td>0</td>
+		  </tr>
+		  <tr>
+			<td>5</td>
+		  </tr>
+		  <tr>
+			<td>0</td>
+		  </tr>
+		  <tr>
+			<td>10</td>
+		  </tr>
+		  </table>
+    </td>
   </tr>
-  <tr>
-    <td>Mayro</td>
-	<td rowspan="5" valign="top">Name: Mayro<br>Health: ||||||.....|<br>Energy: ||||||||||.|</td>
-  </tr>
-  <tr>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>9</td>
-  </tr>
-  <tr>
-    <td>10</td>
-  </tr>
-</table>)| (<table style="float: left;">
-  <tr>
-    <td><strong>Input</strong></td>
-	<td><strong>Output</strong></td>
-  </tr>
-  <tr>
-    <td>Bauser</td>
-	<td rowspan="5" valign="top">Name: Bauser<br>Health: ||||||||||||<br>Energy: ||||||||||||</td>
-  </tr>
-  <tr>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>10</td>
-  </tr>
-</table>)|
+</table>
 
 ### Hints
 
