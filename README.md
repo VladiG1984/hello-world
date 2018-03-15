@@ -13,12 +13,12 @@ Write a program, which receives **4 integers** on the console and **prints them*
 
 <table>
   <tr>
-    <td>**Input**</td>
-    <td>**Output**</td>
+    <td><strong>Input</strong></td>
+    <td><strong>Output</strong></td>
   </tr>
   <tr>
     <td>12</td>
-	<td rowspanspan="4">0012 0433 0001 5331</td>
+	<td rowspan="4">0012 0433 0001 5331</td>
   </tr>
   <tr>
     <td>433</td>
@@ -39,7 +39,7 @@ Write a program, which receives **4 integers** on the console and **prints them*
   </tr>	
 </table>
 
-| **Input** | **Output** |
+| <strong>Input</strong> | <strong>Output</strong> |
 | --- | --- |
 | 12 | 0012 0433 0001 5331 |
 | 433 | |
