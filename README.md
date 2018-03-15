@@ -11,6 +11,34 @@ Write a program, which receives **4 integers** on the console and **prints them*
 
 ### Examples
 
+<table>
+  <tr>
+    <td>**Input**</td>
+    <td>**Output**</td>
+  </tr>
+  <tr>
+    <td>12</td>
+	<td rowspanspan="4">0012 0433 0001 5331</td>
+  </tr>
+  <tr>
+    <td>433</td>
+  </tr>
+  <tr>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>5331</td>
+  </tr>
+  <tr>
+    <td>91824221123</td>
+	<td>9182 4221 0012 0003</td>
+  </tr>
+  <tr>
+    <td>81232112322</td>
+	<td>0812 0321 0123 0022</td>
+  </tr>	
+</table>
+
 | **Input** | **Output** |
 | --- | --- |
 | 12 | 0012 0433 0001 5331 |
