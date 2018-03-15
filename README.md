@@ -263,6 +263,10 @@ Write a program, which **displays information** about a video game character. Yo
 		  </tr>
 		</table>
     </td>
+  </tr>
+</table>
+<table>
+  <tr>
     <td>
 		<table style="float: left;">
 		  <tr>
