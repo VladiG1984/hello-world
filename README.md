@@ -138,6 +138,37 @@ Note: **1 mile == 1.60934 kilometers**
 	</td>
 </table>
 
+|<table style="float: left;">
+		<tr>
+		  <td><strong>Input</strong></td>
+		  <td><strong>Output</strong></td>
+		</tr>
+		<tr>
+		  <td>60</td>
+		  <td>96.56</td>
+		</tr>
+	  </table>|
+	  <table style="float: middle;">
+		<tr>
+		  <td><strong>Input</strong></td>
+		  <td><strong>Output</strong></td>
+		</tr>
+		<tr>
+		  <td>1</td>
+		  <td>1.61</td>
+		</tr>
+	  </table>|
+	  <table style="float: right;">
+		<tr>
+		  <td><strong>Input</strong></td>
+		  <td><strong>Output</strong></td>
+		</tr>
+		<tr>
+		  <td>52.1113</td>
+		  <td>83.86</td>
+		</tr>
+	  </table>|
+
 ## Problem 4. Beverage Labels
 
 Write a program, which reads a food product **name, volume, energy content per 100ml** and **sugar content per 100ml**. Calculate the **energy** and **sugar content** for the **given volume** and print them on the console in the following format:
