@@ -99,7 +99,7 @@ Note: **1 mile == 1.60934 kilometers**
 ### Examples
 
 <body>
-  <table style="display: inline-block; border: 1px solid; float: left; ">
+  <table style="float: left;">
     <tr>
 	  <td><strong>Input</strong></td>
 	  <td><strong>Output</strong></td>
@@ -109,7 +109,7 @@ Note: **1 mile == 1.60934 kilometers**
 	  <td>96.56</td>
 	</tr>
   </table>
-  <table style="display: inline-block; border: 1px solid; ">
+  <table style="float: left;">
     <tr>
 	  <td><strong>Input</strong></td>
 	  <td><strong>Output</strong></td>
@@ -119,7 +119,7 @@ Note: **1 mile == 1.60934 kilometers**
 	  <td>1.61</td>
 	</tr>
   </table>
-  <table style="display: inline-block; border: 1px solid; ">
+  <table style="float: left;">
     <tr>
 	  <td><strong>Input</strong></td>
 	  <td><strong>Output</strong></td>
