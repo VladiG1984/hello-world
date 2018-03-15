@@ -213,8 +213,8 @@ Write a program, which reads a food product **name, volume, energy content per 1
 Write a program, which **displays information** about a video game character. You will receive their **name, current health, maximum health, current energy** and **maximum energy** on separate lines. The **current** values will **always** be valid (**equal or lower** than their respective **max** values). Print them in the format as per the examples.
 
 ### Examples
-<html>
-<table style="float: left;">
+
+|(<table style="float: left;">
   <tr>
     <td><strong>Input</strong></td>
 	<td><strong>Output</strong></td>
@@ -235,9 +235,7 @@ Write a program, which **displays information** about a video game character. Yo
   <tr>
     <td>10</td>
   </tr>
-</table>
-
-<table style="float: left;">
+</table>)| (<table style="float: left;">
   <tr>
     <td><strong>Input</strong></td>
 	<td><strong>Output</strong></td>
@@ -258,8 +256,7 @@ Write a program, which **displays information** about a video game character. Yo
   <tr>
     <td>10</td>
   </tr>
-</table>
-</html>
+</table>)|
 
 ### Hints
 
