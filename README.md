@@ -18,7 +18,7 @@ Write a program, which receives **4 integers** on the console and **prints them*
   </tr>
   <tr>
     <td>12</td>
-	<td rowspan="4">0012 0433 0001 5331</td>
+	<td rowspan="4" valign="top">0012 0433 0001 5331</td>
   </tr>
   <tr>
     <td>433</td>
