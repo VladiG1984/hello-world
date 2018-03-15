@@ -98,7 +98,7 @@ Note: **1 mile == 1.60934 kilometers**
 
 ### Examples
 
-<div>
+<body>
   <table style="display: inline-block; border: 1px solid; float: left; ">
     <tr>
 	  <td><strong>Input</strong></td>
@@ -129,7 +129,7 @@ Note: **1 mile == 1.60934 kilometers**
 	  <td>83.86</td>
 	</tr>
   </table>
-</div>
+</body>
 
 ## Problem 4. Beverage Labels
 
