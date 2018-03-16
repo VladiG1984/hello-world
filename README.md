@@ -149,7 +149,7 @@ Write a program, which reads a food product **name, volume, energy content per 1
 
 ### Examples
 
-<table>
+<table style="width: 200px; height: 200px;">
   <tr>
     <td><strong>Input</strong></td>
 	<td><strong>Output</strong></td>
@@ -169,7 +169,7 @@ Write a program, which reads a food product **name, volume, energy content per 1
   </tr>
 </table>
 
-<table>
+<table style="width: 200px; height: 200px;">
   <tr>
     <td><strong>Input</strong></td>
 	<td><strong>Output</strong></td>
@@ -188,7 +188,8 @@ Write a program, which reads a food product **name, volume, energy content per 1
     <td>65</td>
   </tr>
 </table>
-<table>
+
+<table style="width: 200px; height: 200px;">
   <tr>
     <td><strong>Input</strong></td>
 	<td><strong>Output</strong></td>
@@ -213,10 +214,11 @@ Write a program, which reads a food product **name, volume, energy content per 1
 Write a program, which **displays information** about a video game character. You will receive their **name, current health, maximum health, current energy** and **maximum energy** on separate lines. The **current** values will **always** be valid (**equal or lower** than their respective **max** values). Print them in the format as per the examples.
 
 ### Examples
+
 <table>
   <tr>
     <td>
-		<table style="float: left;">
+		<table style="float: left; width: 200px; height: 200px;">
 		  <tr>
 			<td><strong>Input</strong></td>
 			<td><strong>Output</strong></td>
@@ -240,7 +242,7 @@ Write a program, which **displays information** about a video game character. Yo
 		</table>
     </td>
     <td>
-		<table style="float: left;">
+		<table style="float: left; width: 200px; height: 200px;">
 		  <tr>
 			<td><strong>Input</strong></td>
 			<td><strong>Output</strong></td>
@@ -268,7 +270,7 @@ Write a program, which **displays information** about a video game character. Yo
 <table>
   <tr>
     <td>
-		<table style="float: left;">
+		<table style="float: left; width: 200px; height: 200px;">
 		  <tr>
 			<td><strong>Input</strong></td>
 			<td><strong>Output</strong></td>
@@ -292,7 +294,7 @@ Write a program, which **displays information** about a video game character. Yo
 		</table>
     </td>
     <td>
-		<table style="float: left;">
+		<table style="float: left; width: 200px; height: 200px;">
 		  <tr>
 			<td><strong>Input</strong></td>
 			<td><strong>Output</strong></td>
